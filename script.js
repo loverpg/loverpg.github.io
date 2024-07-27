@@ -1,4 +1,3 @@
-/* CÓDIGO CRIADO PARA USO EXCLUSIVO PARA FORUM MADNEZZ */
 document.querySelectorAll('.tab-container').forEach(container => {
     if (!container.hasAttribute('data-initialized')) {
         const uniqueId = Math.floor(Math.random() * 100000); // Gerar um ID único aleatório
