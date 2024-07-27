@@ -1,1 +1,35 @@
-/*criativo para forum Mads*/
+/* CÓDIGO CRIADO PARA USO EXCLUSIVO PARA FORUM MADNEZZ */
+.tab-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.tab-buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.tab-buttons label {
+    margin: 0 10px;
+    cursor: pointer;
+    padding: 10px;
+    background-color: #ddd;
+    border: 1px solid #ccc;
+    border-radius: 5px 5px 0 0;
+}
+
+.tab-buttons label:hover {
+    background-color: #ccc;
+}
+
+.tab-content {
+    display: none;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+
+.tab-content.active {
+    display: block;
+}
