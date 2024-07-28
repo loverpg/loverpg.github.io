@@ -1,4 +1,3 @@
-<script>
 document.querySelectorAll('.tab-container').forEach(container => {
     if (!container.hasAttribute('data-initialized')) {
         const uniqueId = Math.floor(Math.random() * 100000); // Gerar um ID único aleatório
@@ -33,4 +32,3 @@ document.querySelectorAll('.tab-container').forEach(container => {
         container.setAttribute('data-initialized', 'true');
     }
 });
-</script>
