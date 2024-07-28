@@ -52,3 +52,10 @@
     color: var(--cor-grupo);
     font-weight: bold;
 }
+
+.gridded {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-column-gap: 55px;
+    grid-row-gap: 35px;
+}
