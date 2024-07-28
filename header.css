@@ -25,7 +25,7 @@
     border-top: 1px solid #3c3c3c;
     white-space: pre-line;
     color: #c9c9c9;
-    font-size: 15px;
+    font-size: 13.5px !important;
 }
 
 .tab-content.active {
