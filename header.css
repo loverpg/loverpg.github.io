@@ -1,32 +1,22 @@
 /* CÓDIGO CRIADO PARA USO EXCLUSIVO PARA FORUM MADNEZZ */
 .tab-container {
-    order: 1;
-    cursor: pointer;
-    border-bottom: 1px solid #242323;
-    text-transform: uppercase;
-    color: #888;
-    font-weight: 900;
-    padding: 5px 15px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
 }
 
 .tab-buttons {
-    order: 1;
-    cursor: pointer;
-    border-bottom: 1px solid #242323;
-    text-transform: uppercase;
-    color: #888;
-    font-weight: 900;
-    padding: 5px 15px;
+    display: flex;
+    justify-content: center;
 }
 
 .tab-buttons label {
-    order: 1;
+    margin: 0 10px;
     cursor: pointer;
-    border-bottom: 1px solid #242323;
-    text-transform: uppercase;
-    color: #888;
-    font-weight: 900;
-    padding: 5px 15px;
+    padding: 10px;
+    background-color: #ddd;
+    border: 1px solid #ccc;
+    border-radius: 5px 5px 0 0;
 }
 
 .tab-buttons label:hover {
@@ -34,13 +24,10 @@
 }
 
 .tab-content {
-    order: 1;
-    cursor: pointer;
-    border-bottom: 1px solid #242323;
-    text-transform: uppercase;
-    color: #888;
-    font-weight: 900;
-    padding: 5px 15px;
+    display: none;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-top: none;
 }
 
 .tab-content.active {
