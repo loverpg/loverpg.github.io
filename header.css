@@ -40,3 +40,8 @@
 }
 
 .tab-content h1 {font-family: canvas; font-size: 18px; text-transform: uppercase; color: #fff; margin: 20px 0px;}
+
+.tab-content b {
+    color: var(--cor-grupo);
+    font-weight: bold;
+}
