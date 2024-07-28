@@ -24,6 +24,7 @@
     padding: 20px;
     border-top: 1px solid #3c3c3c;
     white-space: pre-line;
+    color: #c9c9c9;
 }
 
 .tab-content.active {
