@@ -1,8 +1,12 @@
 /* CÓDIGO CRIADO PARA USO EXCLUSIVO PARA FORUM MADNEZZ */
 .tab-container {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 20px;
+    order: 1;
+    cursor: pointer;
+    border-bottom: 1px solid #242323;
+    text-transform: uppercase;
+    color: #888;
+    font-weight: 900;
+    padding: 5px 15px;
 }
 
 .tab-buttons {
