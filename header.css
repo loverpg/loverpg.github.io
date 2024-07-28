@@ -23,6 +23,7 @@
     display: none;
     padding: 20px;
     border-top: 1px solid #3c3c3c;
+    white-space: pre-line;
 }
 
 .tab-content.active {
