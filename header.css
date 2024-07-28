@@ -37,3 +37,5 @@
     color: #ddd;
     font-size: 10px !important;
 }
+
+.tab-content h1 {font-family: canvas; font-size: 18px; text-transform: uppercase; color: #fff; margin: 20px 0px;}
