@@ -13,7 +13,6 @@
 .tab-buttons label {
     margin: 0 10px;
     cursor: default;
-    border-bottom: 1px solid #ffff;
     text-transform: uppercase;
     color: #fff;
     font-weight: 900;
