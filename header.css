@@ -23,9 +23,18 @@
 .tab-content {
     display: none;
     padding: 20px;
-    border-top: 1px solid #3c3c3c;;
+    border-top: 1px solid #3c3c3c;
 }
 
 .tab-content.active {
     display: block;
+}
+
+.tab-content x {
+    padding: 7px;
+    border: 1px solid #333;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: #ddd;
+    font-size: 10px !important;
 }
