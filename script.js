@@ -19,6 +19,12 @@ document.querySelectorAll('.tab-container').forEach(container => {
                 contents.forEach(content => {
                     content.classList.remove('active');
                 });
+                tabs.forEach(label => {
+                    label.style.borderBottom = "thick solid #292929";
+                });
+                container.querySelector(`.tab-content[data-content="${tab.getAttribute('data-tab')}"]`).classList.add('active');
+                tab.style.borderBottom = "3px solid var(--cor-grupo)";
+            });
         });
         // Set the first tab as active by default
         tabs[0].click();
