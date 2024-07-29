@@ -59,7 +59,7 @@
     grid-column-gap: 55px;
     grid-row-gap: 35px;
 }
-.oficial-info {
+.tab-oficial-info {
     display: block;
     font-size: 16px;
     letter-spacing: 2px;
@@ -68,7 +68,7 @@
     padding: 7px;
     text-align: left;
 }
-.oficial-info i {
+.tab-oficial-info i {
     color: #999;
     letter-spacing: 1px;
     text-align: left;
