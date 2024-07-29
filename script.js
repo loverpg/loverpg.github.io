@@ -19,11 +19,8 @@ document.querySelectorAll('.tab-container').forEach(container => {
                 contents.forEach(content => {
                     content.classList.remove('active');
                 });
-                tabs.forEach(label => {
-                    label.style.backgroundColor = '#ddd';
-                });
+
                 container.querySelector(`.tab-content[data-content="${tab.getAttribute('data-tab')}"]`).classList.add('active');
-                tab.style.backgroundColor = '#ccc';
             });
         });
         // Set the first tab as active by default
