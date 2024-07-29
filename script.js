@@ -19,9 +19,6 @@ document.querySelectorAll('.tab-container').forEach(container => {
                 contents.forEach(content => {
                     content.classList.remove('active');
                 });
-                container.querySelector(`.tab-content[data-content="${tab.getAttribute('data-tab')}"]`).classList.add('active');
-                tab.style.borderBottom = "thick solid #0000FF";
-            });
         });
         // Set the first tab as active by default
         tabs[0].click();
