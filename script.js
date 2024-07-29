@@ -21,6 +21,7 @@ document.querySelectorAll('.tab-container').forEach(container => {
                 });
 
                 container.querySelector(`.tab-content[data-content="${tab.getAttribute('data-tab')}"]`).classList.add('active');
+                 tab.style.borderbottom = '1px solid #fff';
             });
         });
         // Set the first tab as active by default
