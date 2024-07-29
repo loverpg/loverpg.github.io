@@ -59,21 +59,3 @@
     grid-column-gap: 55px;
     grid-row-gap: 35px;
 }
-.tab-oficial-info {
-    display: block;
-    font-size: 16px;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    color: #bbb;
-    padding: 7px;
-    text-align: left;
-}
-.tab-oficial-info i {
-    color: #999;
-    letter-spacing: 1px;
-    text-align: left;
-    font-weight: bold !important;
-    font-style: normal;
-    font-size: 10px !important;
-}
-
