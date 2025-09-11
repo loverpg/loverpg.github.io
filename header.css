@@ -59,3 +59,13 @@
     grid-column-gap: 55px;
     grid-row-gap: 35px;
 }
+
+.atributos {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr); 
+  gap: 10px; 
+}
+
+.atributos .spacer {
+  visibility: hidden;
+}
