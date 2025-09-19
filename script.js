@@ -1,3 +1,4 @@
+function iniciarAbas() {
 document.querySelectorAll('.tab-container').forEach(container => {
     if (!container.hasAttribute('data-initialized')) {
         const uniqueId = Math.floor(Math.random() * 100000); // Gerar um ID único aleatório
@@ -26,9 +27,18 @@ document.querySelectorAll('.tab-container').forEach(container => {
                 tab.style.borderBottom = "3px solid var(--cor-grupo)";
             });
         });
-        // Set the first tab as active by default
         tabs[0].click();
-        // Mark the container as initialized
         container.setAttribute('data-initialized', 'true');
     }
 });
+  console.log("Abas iniciadas ou reiniciadas!");
+}
+
+document.addEventListener("DOMContentLoaded", iniciarAbas);
+
+const observer = new MutationObserver(() => {
+  iniciarAbas();
+});
+
+observer.observe(document.body, { childList: true, subtree: true });
+
